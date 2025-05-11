@@ -175,5 +175,5 @@ function provisioning_download() {
 provisioning_start
 
 cd /workspace/home/user/     
-wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megacmd-xUbuntu_22.04_amd64.deb 
+# wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megacmd-xUbuntu_22.04_amd64.deb 
 # sudo apt install -y "megacmd-xUbuntu_22.04_amd64.deb"
