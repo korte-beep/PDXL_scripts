@@ -99,7 +99,7 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/stable_diffusion_webui/embeddings" \
+        "${WORKSPACE}/stable-diffusion-webui/embeddings" \
         "${EMBEDDINGS[@]}"
      
     PLATFORM_ARGS=""
