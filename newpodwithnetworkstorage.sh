@@ -7,21 +7,8 @@ APT_PACKAGES=()
 
 PIP_PACKAGES=()
 
-EXTENSIONS=(
-    'https://github.com/Mikubill/sd-webui-controlnet'
-    'https://github.com/adieyal/sd-dynamic-prompts'
-    'https://github.com/hako-mikan/sd-webui-regional-prompter'
-    'https://github.com/Bing-su/adetailer'
-    'https://github.com/picobyte/stable-diffusion-webui-wd14-tagger'
-    'https://github.com/mix1009/model-keyword'
-    'https://github.com/AlUlkesh/stable-diffusion-webui-images-browser'
-    'https://github.com/Zyin055/Config-Presets'
-    'https://github.com/hnmr293/sd-webui-cutoff'
-    'https://github.com/alemelis/sd-webui-ar'
-    'https://github.com/Inzaniak/sd-webui-ranbooru'
-)
+EXTENSIONS=()
 
-# 'https://civitai.com/api/download/models/1478064?type=Model&format=SafeTensor&size=pruned&fp=fp16' - cybberrealism
 CHECKPOINT_MODELS=()
 
 LORA_MODELS=()
@@ -32,9 +19,7 @@ ESRGAN_MODELS=()
 
 CONTROLNET_MODELS=()
 
-EMBEDDINGS=(
-    'https://civitai.com/api/download/models/287973?type=Model&format=SafeTensor'
-)
+EMBEDDINGS=()
 
 function provisioning_start() {
 
